@@ -1,0 +1,25 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/students/1
+description: ""
+url: http://127.0.0.1:8000/api/students/1
+method: PUT
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"student_number\": \"2024-0001\",\r
+
+    \  \"first_name\": \"Juan\",\r
+
+    \  \"last_name\": \"Dela Cruz\",\r
+
+    \  \"email\": \"juan@example.com\",\r
+
+    \  \"course\": \"BSCS\",\r
+
+    \  \"year_level\": 4\r
+
+    }"
+order: 2000
