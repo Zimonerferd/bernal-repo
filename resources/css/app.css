@@ -49,3 +49,7 @@ td.row-actions { display: flex; gap: 6px; }
 .alert.success { background: #dcfce7; color: #166534; border: 1px solid #86efac; }
 .alert.error { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
 .error-box { background: #fee2e2; color: #991b1b; padding: 10px 12px; border-radius: 6px; font-size: 14px; }
+
+.state-card { font-size: 14px; }
+.state-card ul { margin: 8px 0 0; padding-left: 18px; color: #475569; }
+.search { padding: 9px 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; min-width: 220px; }

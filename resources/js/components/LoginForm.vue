@@ -18,7 +18,6 @@ function submit() {
 <template>
     <div class="card login">
         <h2>Login</h2>
-        <p class="hint">Demo: admin@example.com or user@example.com (password123)</p>
 
         <p v-if="error" class="error-box">{{ error }}</p>
 
